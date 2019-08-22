@@ -20,4 +20,4 @@ cd /path/to/target
 ./software
 ```
 
-##### P.S. This includes both snap and apt programs... If you hate snap, like * *SOME* * people... Leave. Now. How dare you come on my turf and complain! >:(
+##### P.S. This includes both snap and apt programs... If you hate snap, like *SOME* people... Leave. Now. How dare you come on my turf and complain! >:(
