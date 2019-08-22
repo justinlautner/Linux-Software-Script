@@ -1,0 +1,19 @@
+#!/bin/bash
+echo ""
+echo "***************"
+echo "Welcome to your first time setup!"
+echo "I will attempt to download all of your favorite programs"
+echo "***************"
+echo ""
+sudo snap install spotify
+sudo apt install clementine
+sudo snap install android-studio
+sudo snap install eclipse --classic
+sudo apt install gnome-tweaks
+sudo snap install vscode --classic
+echo ""
+echo "***************"
+echo "All finished! :)"
+echo "Welcome to your new OS"
+echo "***************"
+echo ""
