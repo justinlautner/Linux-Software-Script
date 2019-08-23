@@ -9,7 +9,7 @@ sudo snap install spotify
 sudo apt install clementine
 sudo apt install soundconverter
 sudo snap install libreoffice
-sudo snap install android-studio
+sudo snap install android-studio --classic
 sudo snap install eclipse --classic
 sudo apt install gnome-tweaks
 sudo apt install arc-theme
