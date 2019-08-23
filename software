@@ -14,6 +14,17 @@ sudo snap install eclipse --classic
 sudo apt install gnome-tweaks
 sudo apt install arc-theme
 sudo snap install code --classic
+
+#Install Windscribe
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-key FDC247B7
+echo 'deb https://repo.windscribe.com/ubuntu zesty main' | sudo tee /etc/apt/sources.list.d/windscribe-repo.list
+sudo apt-get install windscribe-cli
+
+#Install Dropbox
+sudo apt-get install wget
+cd ~ && wget -O - "https://www.dropbox.com/download?plat=lnx.x86_64" | tar xzf -
+~/.dropbox-dist/dropboxd
+
 sudo snap install vlc
 sudo snap install electron-mail
 sudo snap install discord --classic
