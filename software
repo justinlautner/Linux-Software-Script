@@ -5,26 +5,38 @@ echo "Welcome to your first time setup!"
 echo "I will attempt to download all of your favorite programs"
 echo "***************"
 echo ""
-sudo snap install spotify
-sudo apt install clementine
-sudo apt install soundconverter
-sudo snap install libreoffice
-sudo snap install android-studio --classic
-sudo snap install eclipse --classic
+
+#Gnome themes & tweaks
 sudo apt install gnome-tweaks
 sudo apt install arc-theme
-sudo snap install code --classic
 
+#Coding
+sudo snap install android-studio --classic
+sudo snap install eclipse --classic
+sudo snap install code --classic
+sudo snap install intellij-idea-community --classic
+
+#Productivity
+sudo snap install libreoffice
 #Install Windscribe
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-key FDC247B7
 echo 'deb https://repo.windscribe.com/ubuntu zesty main' | sudo tee /etc/apt/sources.list.d/windscribe-repo.list
 sudo apt update
 sudo apt install windscribe-cli
-
 #Install Dropbox-USE .deb from https://www.dropbox.com/install
 
+#Media
 sudo snap install vlc
+sudo apt install deluge
+sudo snap install spotify
+sudo apt install clementine
+sudo apt install soundconverter
+
+#E-Mail-Exchange account still not configurable
 sudo snap install electron-mail
+sudo snap install mailspring
+
+#Video Games
 sudo snap install discord --classic
 sudo apt install steam-installer
 echo ""
