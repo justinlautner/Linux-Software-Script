@@ -24,6 +24,8 @@ echo 'deb https://repo.windscribe.com/ubuntu zesty main' | sudo tee /etc/apt/sou
 sudo apt update
 sudo apt install windscribe-cli
 #Install Dropbox-USE .deb from https://www.dropbox.com/install
+sudo apt-get install usb-creator-gtk
+sudo snap install gnome-calendar
 
 #Media
 sudo snap install vlc
