@@ -25,7 +25,7 @@ sudo apt update
 sudo apt install windscribe-cli
 #Install Dropbox-USE .deb from https://www.dropbox.com/install
 sudo apt-get install usb-creator-gtk
-sudo snap install gnome-calendar
+sudo apt install gnome-calendar
 
 #Media
 sudo snap install vlc
