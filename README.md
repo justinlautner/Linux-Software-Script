@@ -14,6 +14,7 @@ chmod +x the_file_name
 ```
 To then run the script:
 ------------------
+I recommend placing this at $Home location, that way you do not have to cd anywhere... Just simply open terminal and type the command!
 ```
 cd /path/to/target
 
