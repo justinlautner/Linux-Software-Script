@@ -18,6 +18,10 @@ sudo snap install intellij-idea-community --classic
 
 #Productivity
 sudo snap install libreoffice
+
+#Install Gyazo
+curl -s https://packagecloud.io/install/repositories/gyazo/gyazo-for-linux/script.deb.sh | sudo bash
+sudo apt-get install gyazo
 #Install Windscribe
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-key FDC247B7
 echo 'deb https://repo.windscribe.com/ubuntu zesty main' | sudo tee /etc/apt/sources.list.d/windscribe-repo.list
@@ -33,6 +37,11 @@ sudo apt install deluge
 sudo snap install spotify
 sudo apt install clementine
 sudo apt install soundconverter
+sudo apt install spek
+#Install Lollypop
+sudo add-apt-repository ppa:gnumdk/lollypop
+sudo apt update
+sudo apt install lollypop
 
 #E-Mail-Exchange account still not configurable
 sudo snap install electron-mail
