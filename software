@@ -18,6 +18,7 @@ sudo snap install intellij-idea-community --classic
 
 #Productivity
 sudo snap install libreoffice
+sudo apt install hardinfo
 
 #Install Gyazo
 curl -s https://packagecloud.io/install/repositories/gyazo/gyazo-for-linux/script.deb.sh | sudo bash
