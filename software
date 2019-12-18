@@ -19,6 +19,7 @@ sudo snap install intellij-idea-community --classic
 #Productivity
 sudo snap install libreoffice
 sudo apt install hardinfo
+#Install TickTick at https://github.com/Cajoline/ticktick-linux
 
 #Install Gyazo
 curl -s https://packagecloud.io/install/repositories/gyazo/gyazo-for-linux/script.deb.sh | sudo bash
@@ -51,6 +52,17 @@ sudo snap install mailspring
 #Video Games
 sudo snap install discord --classic
 sudo apt install steam-installer
+
+#Gnome Extensions
+: 'Grub Reboot
+OpenWeather
+Removable Drive Menu
+ShellTile
+Show Desktop Button
+Sound Input & Output Device Chooser
+Suspend Button
+User Themes'
+
 echo ""
 echo "***************"
 echo "All finished! :)"
