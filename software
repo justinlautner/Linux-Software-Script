@@ -1,9 +1,9 @@
 #!/bin/bash
 echo ""
-echo "***************"
-echo "Welcome to your first time setup!"
-echo "I will attempt to download all of your favorite programs"
-echo "***************"
+echo "***************************************************************"
+echo "              Welcome to your first time setup!               *"
+echo "   I will attempt to download all of your favorite programs   *"
+echo "***************************************************************"
 echo ""
 
 #Gnome themes & tweaks
@@ -64,8 +64,8 @@ Suspend Button
 User Themes'
 
 echo ""
-echo "***************"
-echo "All finished! :)"
-echo "Welcome to your new OS"
-echo "***************"
+echo "****************************"
+echo "*     All finished! :)     *"
+echo "*  Welcome to your new OS  *"
+echo "****************************"
 echo ""
