@@ -41,17 +41,18 @@ sudo apt install clementine
 sudo apt install soundconverter
 sudo apt install spek
 #Install Lollypop
+: 'Editing this out in favor of Clementine
 sudo add-apt-repository ppa:gnumdk/lollypop
 sudo apt update
-sudo apt install lollypop
+sudo apt install lollypop'
 
 #E-Mail-Exchange account still not configurable
-sudo snap install electron-mail
+#PROGRAM WILL NOT LAUNCH - sudo snap install electron-mail
 sudo snap install mailspring
 
 #Video Games
 sudo snap install discord --classic
-sudo apt install steam-installer
+# Leaving this for Windows, for now - sudo apt install steam-installer
 
 #Gnome Extensions
 : 'Grub Reboot
