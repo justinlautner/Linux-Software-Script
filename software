@@ -19,7 +19,8 @@ sudo snap install intellij-idea-community --classic
 #Productivity
 sudo snap install libreoffice
 sudo apt install hardinfo
-#Install TickTick at https://github.com/Cajoline/ticktick-linux
+sudo apt install guake
+#Install TickTick at https://github.com/Cajoline/ticktick-for-linux
 
 #Install Gyazo
 curl -s https://packagecloud.io/install/repositories/gyazo/gyazo-for-linux/script.deb.sh | sudo bash
@@ -39,7 +40,7 @@ sudo apt install deluge
 sudo snap install spotify
 sudo apt install clementine
 sudo apt install soundconverter
-sudo apt install spek
+sudo snap install spek
 #Install Lollypop
 : 'Editing this out in favor of Clementine
 sudo add-apt-repository ppa:gnumdk/lollypop
