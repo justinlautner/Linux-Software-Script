@@ -12,10 +12,10 @@ sudo apt install gnome-tweaks
 #sudo apt install arc-theme
 
 #Coding
-sudo snap install android-studio --classic
-sudo snap install eclipse --classic
-sudo snap install code --classic
-sudo snap install intellij-idea-community --classic
+flatpak install androidstudio
+flatpak install eclipse
+sudo apt install code
+#Install Intellij Community edition from tar/website, flatpak has issues
 
 #Productivity
 # Leaving commented out due to libreoffice being included in most distros, uncomment if necessary to install
@@ -29,16 +29,17 @@ echo 'deb https://repo.windscribe.com/ubuntu zesty main' | sudo tee /etc/apt/sou
 sudo apt update
 sudo apt install windscribe-cli
 #Install Dropbox-USE .deb from https://www.dropbox.com/install
-sudo apt-get install usb-creator-gtk
+sudo apt install usb-creator-gtk
 sudo apt install gnome-calendar
 
 #Media
-sudo snap install vlc
+sudo apt install vlc
 sudo apt install deluge
-sudo snap install spotify
+flatpak install spotify
 sudo apt install clementine
 sudo apt install soundconverter
-sudo snap install spek
+# Spek is not available outside of snap format... find a viable alternative!
+#sudo snap install spek
 #Install Lollypop
 : 'Editing this out in favor of Clementine
 sudo add-apt-repository ppa:gnumdk/lollypop
@@ -48,10 +49,11 @@ sudo apt install lollypop'
 # E-Mail-Exchange account still not configurable
 # PROGRAM WILL NOT LAUNCH
 #sudo snap install electron-mail
-sudo snap install mailspring
+# Mailspring not available outside of snap format... find a viable alternative!
+#sudo snap install mailspring
 
 #Video Games
-sudo snap install discord --classic
+flatpak install discord
 # Leaving this for Windows, for now
 # sudo apt install steam-installer
 
