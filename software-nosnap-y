@@ -7,37 +7,37 @@ echo "***************************************************************"
 echo ""
 
 #Gnome themes & tweaks
-sudo apt install gnome-tweaks
+sudo apt install gnome-tweaks -y
 # Commented out due to 20.04 changes in theme (It looks good enough by default, now)
 #sudo apt install arc-theme
 
 #Coding
-flatpak install androidstudio
-flatpak install eclipse
-sudo apt install code
+flatpak install androidstudio -y
+flatpak install eclipse -y
+sudo apt install code -y
 #Install Intellij Community edition from tar/website, flatpak has issues
 
 #Productivity
 # Leaving commented out due to libreoffice being included in most distros, uncomment if necessary to install
 #sudo snap install libreoffice
-sudo apt install guake
-#Install TickTick at https://github.com/Cajoline/ticktick-for-linux
+sudo apt install guake -y
+#Install TickTick at https://github.com/Cajoline/ticktick-for-linux --Need to write a script for this
 
 #Install Windscribe
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-key FDC247B7
 echo 'deb https://repo.windscribe.com/ubuntu zesty main' | sudo tee /etc/apt/sources.list.d/windscribe-repo.list
-sudo apt update
-sudo apt install windscribe-cli
+sudo apt update -y
+sudo apt install windscribe-cli -y
 #Install Dropbox-USE .deb from https://www.dropbox.com/install
-sudo apt install usb-creator-gtk
-sudo apt install gnome-calendar
+sudo apt install usb-creator-gtk -y
+sudo apt install gnome-calendar -y
 
 #Media
-sudo apt install vlc
-sudo apt install deluge
-flatpak install spotify
-sudo apt install clementine
-sudo apt install soundconverter
+sudo apt install vlc -y
+sudo apt install deluge -y
+flatpak install spotify -y
+sudo apt install clementine -y
+sudo apt install soundconverter -y
 # Spek is not available outside of snap format...
 # Follow the guide found here: https://github.com/alexkay/spek/blob/v0.8.2/INSTALL.md#bsd-and-gnulinux for building from git repository (then sudo make install for app in show apps)
 #sudo snap install spek
@@ -54,7 +54,7 @@ sudo apt install lollypop'
 #sudo snap install mailspring
 
 #Video Games
-flatpak install discord
+flatpak install discord -y
 # Leaving this for Windows, for now
 # sudo apt install steam-installer
 
